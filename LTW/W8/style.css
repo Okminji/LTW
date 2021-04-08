@@ -31,4 +31,4 @@ header{
     z-index: 1;
 }
 tr.data:nth-child(odd) {background-color: #d4d4d4;}
-th.h:{background-color: #697c8b;}
+th.h {background-color: #697c8b;}
