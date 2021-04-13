@@ -1,64 +1,61 @@
-body{
-	background-color: #5DCBD0;
+body {
+  background-color: #5dcbd0;
 }
-.container{
-			width: 90%;
-			margin: 0 auto;
-			background-color: #5DCBD0;
-		}
-.header{
-	background-color: #D8D4E6;
-	height: 160px;
-	clear: both;
-
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #5dcbd0;
 }
-.footer{
-	background-color: #D8D4E6;
-	height: 80px;
-	clear: both;
-
+.header {
+  background-color: #d8d4e6;
+  height: 160px;
+  clear: both;
 }
-.left{
-	background-color:aquamarine;
-	height: 450px;
-	width: 20%;
-	float: left;
+.footer {
+  background-color: #d8d4e6;
+  height: 80px;
+  clear: both;
 }
-.main{
-	text-align-last: center;
-	background-color: #C9F8CC;
-	height: 450px;
-	width: 60%;
-	float: left;
-	border: 1px solid black;
-	box-sizing: border-box ;
+.left {
+  background-color: aquamarine;
+  height: 450px;
+  width: 20%;
+  float: left;
 }
-.right{
-	background-color: #D2F5AF;
-	height: 450px;
-	width: 20%;
-	float: left;
-
+.main {
+  text-align-last: center;
+  background-color: #c9f8cc;
+  height: 450px;
+  width: 60%;
+  float: left;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
-.li,a{
-	list-style: none;
-	padding: 10px 10px ;
-	color: blue;
+.right {
+  background-color: #d2f5af;
+  height: 450px;
+  width: 20%;
+  float: left;
 }
-.li,a :hover{
-	color: white;
-	cursor: pointer;
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-.left a{
-	text-decoration: none;
+.nav li {
+  line-height: 40px;
+  float: left;
 }
-.menu li:hover{
-	background: coral;
+.nav a {
+  padding: 0px 10px;
 }
-.menu{
-	display:inline;
-    list-style: none;
+.nav a:link {
+  font-size: 25px;
+  text-decoration: none;
+  color: #2e5033;
+  display: block;
 }
-h1{
-	color: aquamarine;
+.nav a:hover {
+  background: azure;
+  color: red;
 }
